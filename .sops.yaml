@@ -1,6 +1,8 @@
 creation_rules:
-    - path_regex: .*configs-to-encrypt/.*
-      kms: arn:aws:kms:eu-central-1:640753244498:key/d8362fe3-d807-42de-a214-f6a1034a6da1
-      aws_profile: MFA
-      age: age1jsfcat6jfxv3r3n5dvd3ukka9ahalyv7zzu2hx63jpfgwdqj2exswfsnhy
+    - path_regex: .*config/test/.*
+      kms: arn:aws:kms:eu-central-1:640753244498:key/f9024130-ba9c-458d-ba4a-ca05b06f6f2c
+      aws_profile: KMS_TEST_USER
 
+    - path_regex: .*config/prod/.*
+      kms: arn:aws:kms:eu-central-1:640753244498:key/02b01f77-35ac-4f24-a23c-87684b6cc01b
+      aws_profile: KMS_PROD_USER

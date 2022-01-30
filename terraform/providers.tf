@@ -10,6 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = "eu-central-1"
+  region = "eu-central-1"
   profile = "MFA"
+  # profile = "KEY_ADMIN"
 }

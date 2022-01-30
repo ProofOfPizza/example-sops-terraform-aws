@@ -7,5 +7,6 @@ pkgs.mkShell {
     sops
     terraform
     nodejs-14_x
+    vscode
   ];
 }
