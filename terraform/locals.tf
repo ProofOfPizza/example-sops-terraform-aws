@@ -43,7 +43,7 @@ locals {
     test = {
       description             = "Key for test env using SOPS"
       deletion_window_in_days = 7
-      policy                  = templatefile("./policies/key-policy.tpl", {key_users = [aws_iam_user.user["test"].arn], key_admins = [aws_iam_user.user["key_admin"].arn, local.my_aws_user]})
+      policy                  = templatefile("./policies/key-policy.tpl", {key_users = [aws_iam_user.user["test"].arn, aws_iam_user.user["prod"].arn], key_admins = [aws_iam_user.user["key_admin"].arn, local.my_aws_user]})
       enable_key_rotation     = true
       tags = {
         use         = "example"
