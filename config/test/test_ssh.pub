@@ -1,0 +1,22 @@
+{
+	"data": "ENC[AES256_GCM,data:OhphBXkWsIzBZj8IDwGAwa1W8m5IItvtY+DTWUGAPeoS09djrbwDFCsztLxlFRNtkak/o0KwGk8j2SSteyloSrHdgSb0vg42/efmUro6T2N+xNw5GSjBm0FVOjXx5kBFcDSZGZQO3VMlqAbnTXN90hDUKdeCIG6RcOW3FK/ox7yr7rXhlqiwHDCc772hwGnYzxz7vmjsQ+yiF0SuuK6Ayj6skRLZBfiFwH0BQ4KCsIVeoEELQUHOG/awPG9PLMSNHwR+iLLg3WEJuyM8hEvuT2/ArHImF9tNtAfYQBjcCYqAK15L3td/LV6II1opg7uKcVaBtdpPwQiB7yGHVGL7G5LFu5iL0nVYXJi9FsBdGocI4u9XIjuTKhNmgMcPfdo0YaV28xlJZWsbW52FVqyvwfwVlf12PAojBH7l+OdBZl8f9SEJKcEvXXmZAhmBLi4OsUNK/SU4lCOT7RQs0kCPRTHJwx8bjWkyOw+4MbnQQGLhA15B+EupMsMlrZJitVow1DaOJd7T3gkWVQcqtrdqQ935vE5Tsr+fdrtuBl1P+g+2k14dqAZqO+FoonpjgipGIpw97fMaCBhzSVHcrcZIOt7d7ioSIVFH0O81USgAQNuiGTkP8pbMvVzmvjRlJ9sHfG3UryRPR8k8f/uQCTbYDajhJMZLpTP/KwDiIaoI9ckRFdS+o/ZDWuENJoLogBQ8dm8I4pBnsF7tB8DOHKFVAEOAU78EzcqdgBNjZDBUZxS1Q8Z24+46jOvTfFmmgeKTDxctv61zVnwriYUxnLD8v4hFbqYrS7Nc5lp23UDbioOdDr8HTXoc1M2ISvX5Tvh/BUswH0HcAzYpQrkWzqlCy1VcG3ngJ+/PbJOuRYKXSQtGUEu/tu0iyN7uJDK3m74h4gI4Jn3rdvKpw9TgkQUfWmRgsBw2YGMKpPQ2ZeWCpaUUxcJcMznwRzgfuzvgwITidv38JtZBjAUB//C4l/+Tmg==,iv:pljhA+/BdLeNGvvWmes201KS/Zon/yTIFQjQcY7zaOY=,tag:W5iwjO8IYYMyQy1smn96ZA==,type:str]",
+	"sops": {
+		"kms": [
+			{
+				"arn": "arn:aws:kms:eu-central-1:640753244498:key/f9024130-ba9c-458d-ba4a-ca05b06f6f2c",
+				"created_at": "2022-01-30T18:53:54Z",
+				"enc": "AQICAHgGaSyBKN+bz3080pD2cMp9ziOVFjBV/Pz1YqvzFdcKHwGh/gOroZZzeja1EvRHkbvBAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM5IIMEmAuRhb24OIZAgEQgDtYRLjRQTC3b7eJyiT5IWdUyFuNv/x7R4HMfD+e5yVFvRFmA5W7KG8zPaogHu4itGm6LvUxLv1EbwkRQg==",
+				"aws_profile": "KMS_TEST_USER"
+			}
+		],
+		"gcp_kms": null,
+		"azure_kv": null,
+		"hc_vault": null,
+		"age": null,
+		"lastmodified": "2022-01-30T18:53:54Z",
+		"mac": "ENC[AES256_GCM,data:1S9RmCtNl9WMBwTJaAGvoAjllrMi7fdJ+c4W/xJJfOmMoy3jZcQcU6Chh7hMTRHL8nXZwWvGtd9aniGh0mfSzVYtlGOsYmiZlhKbM7sP6TUY4cuU+6CKT9SDLQ2vnzkNTdU8YuTE0WjV5Wd+96HutQJf/Io2fSb5S/2HwKNfe7A=,iv:wq2d00rVQgStBcxrFOB3QlveJC21Qrv3e0lArQHE1Io=,tag:SG1MAFKphjWQ1Th6HEePFA==,type:str]",
+		"pgp": null,
+		"unencrypted_suffix": "_unencrypted",
+		"version": "3.7.1"
+	}
+}
