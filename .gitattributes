@@ -1,1 +1,1 @@
-configs-to-encrypt/** diff=sopsdiffer
+config/** diff=sopsdiffer
